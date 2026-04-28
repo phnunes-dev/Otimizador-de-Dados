@@ -8,35 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark analytics dashboard — Linear/Vercel inspired */
+    --background: 222 47% 5%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 222 40% 8%;
+    --card-foreground: 210 40% 98%;
+    --card-elevated: 222 38% 11%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222 40% 8%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 187 95% 55%;
+    --primary-foreground: 222 47% 6%;
+    --primary-glow: 187 95% 65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 222 30% 14%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 222 25% 12%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 265 89% 66%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    --success: 142 71% 45%;
+    --warning: 38 92% 55%;
+    --destructive: 0 72% 55%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 222 30% 16%;
+    --input: 222 30% 14%;
+    --ring: 187 95% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    --gradient-primary: linear-gradient(135deg, hsl(187 95% 55%), hsl(265 89% 66%));
+    --gradient-surface: linear-gradient(180deg, hsl(222 40% 8%), hsl(222 47% 5%));
+    --gradient-glow: radial-gradient(circle at 50% 0%, hsl(187 95% 55% / 0.15), transparent 60%);
+
+    --shadow-glow: 0 0 40px hsl(187 95% 55% / 0.25);
+    --shadow-card: 0 4px 24px -8px hsl(222 47% 2% / 0.6);
 
     --sidebar-background: 0 0% 98%;
 
