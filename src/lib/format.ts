@@ -25,5 +25,8 @@ export const categoryLabels: Record<string, string> = {
   payroll: "Folha de pagamento",
   utility: "Utilidades",
   marketing: "Marketing",
+  software: "Software",
+  food: "Alimentação",
+  logistics: "Logística",
   other: "Outros",
 };
