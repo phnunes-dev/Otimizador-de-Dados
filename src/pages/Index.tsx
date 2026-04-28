@@ -166,7 +166,7 @@ const Index = () => {
             </div>
             <div>
               <h1 className="text-base font-semibold tracking-tight">
-                Agentic Data Steward
+              Otimizador de Dados | Pedro Nunes
               </h1>
               <p className="text-xs text-muted-foreground">
                 Limpeza de planilhas com IA — typos & categorização
