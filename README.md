@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Otimização de limpeza de dados para pequenas empresas
 
-TODO: Document your project here
+TODO: React, Supabase, OpenAI
