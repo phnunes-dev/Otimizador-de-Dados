@@ -17,7 +17,13 @@ export const StatsCards = ({ docs }: { docs: Doc[] }) => {
     .filter((d) => d.status === "done" && typeof d.amount === "number")
     .reduce((acc, d) => acc + (d.amount || 0), 0);
 
-  const items = [
+  const items: Array<{
+    label: string;
+    value: string;
+    icon: any;
+    tone: "primary" | "success" | "warning" | "destructive" | "muted";
+    sub?: string;
+  }> = [
     {
       label: "Documentos ingeridos",
       value: total.toString(),
@@ -43,7 +49,7 @@ export const StatsCards = ({ docs }: { docs: Doc[] }) => {
       tone: errors > 0 ? "destructive" : "muted",
       sub: errors > 0 ? `${errors} com erro` : undefined,
     },
-  ] as const;
+  ];
 
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
